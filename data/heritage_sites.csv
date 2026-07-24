@@ -1,0 +1,6 @@
+id,name,state,category,history,bestTime,budget,unesco,festival,nearbyAttraction,accessibility,rating
+1,Brihadeeswarar Temple,Tamil Nadu,Temple,Chola architecture and UNESCO heritage site,November to February,3000,true,Maha Shivaratri,Gangaikonda Cholapuram,Well connected by road and rail,4.9
+2,Hampi,Karnataka,Fort,Vijayanagara Empire ruins and UNESCO site,October to February,5000,true,Hampi Utsav,Virupaksha Temple,Accessible by road and nearest airport Hubli,4.8
+3,Konark Sun Temple,Odisha,Temple,13th century Sun Temple and UNESCO site,October to March,4500,true,Konark Dance Festival,Chandrabhaga Beach,Connected by road from Bhubaneswar,4.7
+4,Ajanta Caves,Maharashtra,Caves,Buddhist rock-cut cave monuments,November to March,4000,true,Ajanta Ellora Festival,Ellora Caves,Accessible by road and rail via Aurangabad,4.8
+5,Chettinad Heritage Area,Tamil Nadu,Heritage Village,Famous for palatial mansions and cultural heritage,October to February,3500,false,Chettinad Festival,Karaikudi,Well connected by road and rail,4.6

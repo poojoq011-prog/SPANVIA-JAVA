@@ -1,0 +1,10 @@
+# Ignore Java class files
+*.class
+
+# Ignore IDE configurations
+.project
+.classpath
+.settings/
+.idea/
+*.iml
+.vscode/
