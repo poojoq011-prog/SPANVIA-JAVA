@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: spanvia-backend
+    runtime: java
+    rootDir: .
+    buildCommand: mvn clean package -DskipTests
+    startCommand: java -cp target/classes com.pooja.spanvia.app.SpanviaServer
+    healthCheckPath: /api/sites
+    envVars:
+      - key: FRONTEND_URL
+        sync: false

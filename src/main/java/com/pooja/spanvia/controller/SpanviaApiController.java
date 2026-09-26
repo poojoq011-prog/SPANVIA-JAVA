@@ -22,8 +22,8 @@ public class SpanviaApiController implements HttpHandler {
 
     @Override
     public void handle(HttpExchange exchange) throws IOException {
-        // Add CORS headers for React frontend (http://localhost:5173)
-        exchange.getResponseHeaders().set("Access-Control-Allow-Origin", "http://localhost:5173");
+        String allowedOrigin = System.getenv().getOrDefault("FRONTEND_URL", "http://localhost:5173");
+        exchange.getResponseHeaders().set("Access-Control-Allow-Origin", allowedOrigin);
         exchange.getResponseHeaders().set("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
         exchange.getResponseHeaders().set("Access-Control-Allow-Headers", "Content-Type, Authorization");
 

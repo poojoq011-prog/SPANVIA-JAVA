@@ -11,7 +11,7 @@ public class SpanviaServer {
 
     public static void main(String[] args) {
         try {
-            int port = 8080;
+            int port = Integer.parseInt(System.getenv().getOrDefault("PORT", "8080"));
             SpanviaService service = new SpanviaService();
 
             // Load initial 100 heritage sites dataset
