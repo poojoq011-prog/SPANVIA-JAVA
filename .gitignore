@@ -1,5 +1,8 @@
-# Ignore Java class files
+# Ignore Java class files and build directories
 *.class
+target/
+bin/
+Searches/
 
 # Ignore IDE configurations
 .project

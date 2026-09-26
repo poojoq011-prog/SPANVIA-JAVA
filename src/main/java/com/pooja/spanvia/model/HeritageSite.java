@@ -69,6 +69,30 @@ public class HeritageSite extends CulturalPlace
         return estimatedBudget;
     }
 
+    public String getHistory() {
+        return history;
+    }
+
+    public boolean isUnesco() {
+        return unesco;
+    }
+
+    public String getFestival() {
+        return festival;
+    }
+
+    public String getNearbyAttraction() {
+        return nearbyAttraction;
+    }
+
+    public String getAccessibility() {
+        return accessibility;
+    }
+
+    public double getRating() {
+        return rating;
+    }
+
     // Override abstract method
     @Override
     public void showCategory() {
